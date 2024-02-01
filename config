@@ -232,6 +232,9 @@ focus_follows_mouse no
 # Keybinds
 bindsym $mod+Shift+s exec grim -g "$(slurp)" - | wl-copy
 
+# Lock Screen
+bindsym $mod+i exec 'swaylock -f -c 000000'
+
 # Output config
 output 'Ancor Communications Inc ASUS VS247 FBLMTF184324' {
 	mode 1920x1080@60.000Hz
